@@ -12,5 +12,6 @@ public class Task2Test {
         service.submit(task2::fizzbuzz);
         service.submit(task2::number);
         service.submit(task2::print);
+        service.shutdown();
     }
 }

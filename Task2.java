@@ -88,6 +88,7 @@ public synchronized void fizz(){
             while (!deque.isEmpty()) {
                 System.out.println(deque.poll());
             }
+            notifyAll();
         }
     }
 }
